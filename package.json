@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+
+  "private": true,
   "scripts": {
     "test": "jest --passWithNoTests",
-    "test:staged": "jest"
+    "test:staged": "jest",
+    "postinstall": "husky install"
   },
   "keywords": [],
   "author": "",
